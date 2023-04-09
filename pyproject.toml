@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling",
+            "requests"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ops_tracker_cvache"
+version = "0.0.6"
+authors = [
+  { name="Carson Vache", email="carsonvache@gmail.com" },
+]
+description = "A small example package"
+readme = "readme.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
