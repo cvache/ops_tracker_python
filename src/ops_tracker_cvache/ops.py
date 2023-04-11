@@ -22,7 +22,7 @@ class ops_tracker(Logger):
             "timestamp": timestamp
         }
 
-        r = requests.put(url=self.tracker_address, data=json.dumps(payload))
+        r = requests.post(url=self.tracker_address, data=json.dumps(payload))
         print("Status code: ", r.status_code)
         print("Resp: ", r.text)
 

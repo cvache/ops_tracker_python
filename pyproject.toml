@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ops_tracker_cvache"
-version = "0.0.6"
+version = "0.0.7"
 authors = [
   { name="Carson Vache", email="carsonvache@gmail.com" },
 ]
