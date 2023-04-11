@@ -1,6 +1,7 @@
 from logging import Logger
 import requests
 import json
+import time
 
 class ops_tracker(Logger):
 
@@ -12,7 +13,7 @@ class ops_tracker(Logger):
     ### Utils ###
 
     def generateTimestamp(self):
-        return
+        return time.time()
     
     def sendCall(self, level, timestamp):
         payload = {
